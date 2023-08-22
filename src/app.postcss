@@ -1,0 +1,15 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html,
+	body {
+		height: 100%;
+	}
+
+	body {
+		@apply bg-gradient-to-r from-gray-200 to-gray-50;
+	}
+}
